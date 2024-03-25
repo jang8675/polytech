@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이게 제목임</title>
+</head>
+
+<body>
+    <h1 title="이건 제목임">제목</h1>
+    <h2>부 제목</h2>
+    <h3>## shift alt f하면 자동으로 공백을 줄여줌</h3>
+    <p>
+        옛날에 &nbsp; <strong>했제</strong><b>했제</b>와
+
+        <mark>그랬제</mark>가
+        <em>살았어요</em>....
+        
+    </p>
+    <p>
+        n = 10 <br>
+        x = 3 <br>
+
+        x &gt; n <br>
+        x &lt; n <br>
+
+        &lt;h1&gt;&lt;/h1&gt;
+
+        &lt;script&gt;&lt;/script&gt; 해킹안되도록 이렇게 바뀌는 경우가 있음
+        <pre>
+            <script>alert('hi')</script>
+            안녕               난 
+            
+            붕어빵이야
+            https의 port는 443이 될 수 있음
+            http는 해킹의 위협이 있음
+            암호는 비밀번호가 있어야함
+            비밀번호 어떻게 나눠가질까요 => https는 제 3의 인증기관 CA에서 공개키를 알아줘 / 2중암호
+            대칭형/비대칭형 암호가 있음 abc를 풀때는 abc를 입력하는데 abc로 잠궈도 def로 풀리는것도 있음
+            비밀키/공개키로 해서 전세계에 뿌림 비밀키는 나만 알고있기 
+
+            변경하면 안되는 변수는 const로 쓰고 
+            변경하는 변수들은 let을 쓰는데 근본은 var라는 키워드로 선언을 하긴함
+        </pre>
+
+    </p>
+
+    <p>
+        이미지를 넣어봅시다.
+        url을 넣어야함
+        <br>
+        <img title="무슨무슨이미지" width = "500" height= "600" src="https://cdn.pixabay.com/photo/2023/11/07/22/56/skyscraper-8373617_1280.jpg" alt="이건 왜쓰지">
+        <br>
+        글이 계속 이어져요
+
+
+        <a href="htttps://naver.com">여기</a>를 누르면 네이버로 이동
+        <a target="_blank" href="https://naver.com">새창</a>에서 띄우기
+
+        <a target="_blank" href="https://youtube.com">
+           <img width = "200" src="youtube.png" alt="">
+        </a>
+
+        <iframe width="900" height="700" src="https://www.kopo.ac.kr/jinju/content.do?menu=6802"></iframe>
+    </p>
+
+    <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eNB0sgm0698?si=6ro0wTDtMuJIvpwD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </p>
+
+    <h2>리스트</h2>
+    <ui>
+        <li>폴리텍</li>
+        <li>빛길</li>
+        <li>키오스피킹</li>
+        <li>헬스이지</li>
+    </ui>
+    <ol>
+        <li>1위 누구누구</li>
+        <li>2위 누구누구</li>
+        <li>3위 누구누구</li>
+    </ol>
+    <dl>
+        <dt>단어</dt>
+        <dd>이 단어의 의미</dd>
+        <dt>단어</dt>
+        <dd>이 단어의 의미</dd>
+        <dt>단어</dt>
+        <dd>이 단어의 의미</dd>
+        <dt>단어</dt>
+        <dd>이 단어의 의미</dd>
+    </dl>
+
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            font-size: 20pt;
+        }
+    </style>
+    
+    <table>
+        <tr>
+            <td colspan="2">1</td>   # 1이 2자리까지 합쳐지는
+            <td>3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+</body>
+
+</html>
