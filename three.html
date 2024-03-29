@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 기초</title>
+    <!-- <link rel = "stylesheet" href="style.css"> -->
+    <style>
+        /* red클래스가 붙은 h1요소들
+        h1.red {
+            color : red;
+        }
+        /* bold 클래스가 붙은 요소들 선택 */
+        .bold{
+            font-weight: bold;
+        }
+        /* id = "mainTitle" 또는 h2요소들 선택 */
+        /* ,를 안적고 그냥 띄어쓰기만 하면 다른 의미 띄어쓰기만 하면 자손 선택자 */
+        #mainTitle, h2 {
+            color: darkblue;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        #content {
+            border: 2px solid orange;
+        }
+        /* #content p 이렇게 쓰면 자손 선택자  */
+        /* #content>p 이렇게 쓰면 자식 선택자  */
+        #content>p {
+            color: chocolate;
+        }
+        #title {
+            color: red;
+            margin: auto;
+            padding: 30px 30px 30px 30px;
+            border: 2px solid black;
+            width: 300px;
+            height: 300px;
+        } 
+    </style>
+</head>
+
+<body>
+    <h1 id="mainTitle">여기에 제목이 있어요</h1>
+    <h2>h2 태그의 제목</h2>
+    <h1 class="red">여기에 제목이 있어요</h1>
+    <h1>여기에 제목이 있어요</h1> -->
+    <!-- id는 한개만 존재해야한다 -->
+    <p>이건 p 태그</p>
+    <p>두번째 문단</p>
+    <p class="red bold">배고프다</p>
+    <div id="content">
+        <h3 id = "title">콘텐츠의 h2</h3>
+        <p>콘텐츠의 문단1</p>
+        <p>콘텐츠의 문단2</p>
+        <div>
+            <p>콘텐츠 안에 또 다른 콘텐츠1</p>
+            <p>콘텐츠 안에 또 다른 콘텐츠2</p>
+        </div>
+    </div>
+        
+</body>
+</html>
